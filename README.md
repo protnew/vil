@@ -6,9 +6,10 @@
 
 The primary goal is to provide a simple, intuitive, and effective mobile tool for vocabulary acquisition.
 
-[Download APK (app-release.apk)](app-release.apk)
+### Direct Downloads
 
-[View Demo (MP4)](demo_vil.mp4)
+*   **[Download APK (direct link)](https://raw.githubusercontent.com/protnew/vil/main/app-release.apk)**
+*   **[Download Demo Video (direct link)](https://raw.githubusercontent.com/protnew/vil/main/demo_vil.mp4)**
 
 ## 2. Core Features (MVP)
 
