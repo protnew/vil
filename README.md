@@ -1,5 +1,47 @@
-# vil
+# Project Wiki: VocabLearn - Flutter Flashcards App
 
+## 1. Project Overview
+
+**VocabLearn** is a single-screen Flutter application designed to help users learn foreign words effectively through associative flashcards. The app utilizes a local SQLite database for storing word cards and implements a Spaced Repetition System (SRS) to optimize the learning process.
+
+The primary goal is to provide a simple, intuitive, and effective mobile tool for vocabulary acquisition.
+
+## 2. Core Features (MVP)
+
+*   **Associative Flashcards:** Each card displays a word, its transcription, translation, an associative image, and an associative phrase to aid memorization.
+*   **Detailed Information:** Users can access additional information for each word, including an interesting fact and its etymology.
+*   **Local SQLite Database:** All word cards and user progress are stored locally on the device, allowing for offline use.
+*   **Spaced Repetition System (SRS):** The app employs an SRS algorithm (a modified SM-2 approach for incorrect answers and a simpler interval progression for correct answers) to schedule card reviews at optimal intervals for long-term retention.
+*   **Swipe Gestures:** Users interact with cards by swiping left ("Forgot") or right ("Remembered") to indicate their recall.
+*   **Progress Tracking:** Visual indicators on cards show the learning progress for each word.
+
+## 3. Technical Stack
+
+*   **Framework:** Flutter
+*   **Language:** Dart
+*   **Local Database:** SQLite (using `sqflite` and `path` packages)
+*   **State Management:** Local `StatefulWidget` state (for MVP)
+*   **Asset Management:** Local images stored in `assets/images/`
+
+## 4. Project Structure
+
+The project follows a standard Flutter application structure:
+Use code with caution.
+Markdown
+lib/
+├── main.dart # Application entry point
+├── models/
+│ └── word_card_model.dart # WordCard data model
+├── database/
+│ └── database_helper.dart # SQLite database helper class
+├── screens/
+│ └── card_screen.dart # Main screen displaying flashcards
+├── widgets/
+│ └── word_card_widget.dart # Widget for a single flashcard
+└── services/
+└── spaced_repetition_service.dart # Logic for the Spaced Repetition System
+assets/
+└── images/ # Directory for associative images (e.g., sun.jpg, moon.jpg)
 
 ## 5. Database Schema (`word_cards` table)
 
