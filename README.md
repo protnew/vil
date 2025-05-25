@@ -6,6 +6,10 @@
 
 The primary goal is to provide a simple, intuitive, and effective mobile tool for vocabulary acquisition.
 
+[Download APK (app-release.apk)](app-release.apk)
+
+[View Demo (MP4)](demo_vil.mp4)
+
 ## 2. Core Features (MVP)
 
 *   **Associative Flashcards:** Each card displays a word, its transcription, translation, an associative image, and an associative phrase to aid memorization.
